@@ -1,0 +1,144 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Victor-Heredia"
+theme = 'LoveIt'
+          
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = "https://i.postimg.cc/x14trR5W/fotoMia.jpg"
+      name = "VictorHeredia"
+      typeit = false
+[author]
+  name = "Victor Heredia"
+  email = "VictorinLamuela@gmail.com"
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "Victor in English"
+    languageCode = "en"
+    languageName = "English"
+
+    [[languages.en.menu.main]]
+      weight = 1
+        pre = ""
+        post = ""
+      identifier = "puzzle"
+      name = "puzzle"
+      url = "/en/Puzzle/"
+    [[languages.en.menu.main]]
+     weight = 2
+       pre = ""
+        post = ""
+         name = 'About me'
+         url = '/en/aboutMe'
+         
+    [[languages.en.menu.main]]
+      weight = 3
+        pre = ""
+        post = ""
+      identifier = "About Hugo"
+      name = "About Hugo"
+      url = "/en/AboutHugo/"
+       [[languages.en.menu.main]]
+      weight = 4
+        pre = ""
+        post = ""
+      identifier = "Client/server communication process "
+      name = "Client/server communication process"
+      url = "/en/ClienteServer/"
+         [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          avatarURL = "https://i.postimg.cc/x14trR5W/fotoMia.jpg"
+          title = "English"
+          subtitle = "Hello, this is the beginning of Victor Heredia's practice, enjoy this spectacular work"
+          typeit = true
+          social = true
+          disclaimer = ""
+      [languages.es]
+    weight = 2
+    title = "Victor en Español"
+ contentDir='content/Es'
+  languageCode = "es"
+    languageName = "Español"
+    [[languages.es.menu.main]]
+      weight = 1
+        pre = ""
+        post = ""
+      identifier = "Rompecabezas"
+      name = "Rompecabezas"
+      url = "/es/Rompecabezas/"
+    [[languages.es.menu.main]]
+      weight = 2
+        pre = ""
+        post = ""
+      identifier = "Sobre Mi"
+      name = "Sobre Mi"
+      url = "/es/SobreMi/"
+    [[languages.es.menu.main]]
+      weight = 3
+        pre = ""
+        post = ""
+      identifier = "Sobre hugo"
+      name = "Sobre hugo"
+      url = "/es/Sobrehugo/"
+   [[languages.es.menu.main]]
+      weight = 4
+        pre = ""
+        post = ""
+      identifier = "Proceso de comunicacion cliente /servidor "
+      name = "Proceso de comunicacion cliente /servidor"
+      url = "/es/ClienteServidor/"
+        [languages.es.params.home]
+        rss = 10
+        [languages.es.params.home.profile]
+          enable = true
+          avatarURL = "https://i.postimg.cc/x14trR5W/fotoMia.jpg"
+          title = "Español"
+          subtitle = "hola este es el inicio de la practica de Victor Heredia, disfruta de este espectacular trabajo"
+          typeit = true
+          social = true
+          disclaimer = ""
+
+      [languages.fr]
+    weight = 3
+    title = "Victor Francais"
+    contentDir='content/Fr'
+     languageCode = "fr"
+    languageName = "Francais"
+    [[languages.fr.menu.main]]
+      weight = 1
+      identifier = "Puzzle"
+      name = "Puzzle"
+      url = "/fr/PuzzleFr/"
+    [[languages.fr.menu.main]]
+      weight = 2
+      identifier = "sur moi"
+      name = "sur moi"
+      url = "/fr/surmoi/"
+
+    [[languages.fr.menu.main]]
+      weight = 3
+      identifier = "sur hugo"
+      name = "sur hugo"
+      url = "/fr/surHugo/"
+
+       [[languages.fr.menu.main]]
+      weight = 4
+      identifier = "Processus de communication client/serveur"
+      name = "Processus de communication client/serveur"
+      url = "/fr/ClientServeur/"
+       [languages.fr.params.home]
+        rss = 10
+        [languages.fr.params.home.profile]
+          enable = true
+          avatarURL = "https://i.postimg.cc/x14trR5W/fotoMia.jpg"
+          title = "Francais"
+          subtitle = "Bonjour, c'est le début de la pratique de Victor Heredia, profitez de ce travail spectaculaire"
+          typeit = true
+          social = true
+          disclaimer = ""
